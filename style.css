@@ -1,0 +1,140 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'NunitoSansRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.contenedor{
+    padding: 1em;
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+.intro h1{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.inf{
+    margin-top: 2em;
+}
+
+.svg{
+    margin-right: 10px;
+    width: 25px;
+}
+
+.flex{
+    display: flex;
+}
+
+.error{
+    border-bottom: 2px solid red;
+}
+
+.correcto{
+    border-bottom: 2px solid blue;
+}
+
+.lista-errores-div-h1{
+    margin-bottom: 4em;
+    margin-top: 5em;
+}
+
+.nmt{
+    margin-top: 1em; 
+}
+
+.lista-errores-h1{
+    border-bottom: 7px solid black;
+    display: inline;
+    
+}
+
+.lista-errores-nombre{
+    display: inline-block;
+    border: 5px solid orange;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.margen{
+    margin-bottom: 1em;
+}
+
+.lista-errores-separación{
+    content: '';
+    display:block;
+    width: 100px;
+    height: 10px;
+    background-color: orangered;
+    margin: 2.8em 0;
+}
+
+a{
+    display:inline-block;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.margen-top{
+    margin-top: 2.5em;
+}
+
+.tachado{
+    text-decoration-line: line-through;
+}
+
+.opinión-inline{
+    display: inline;
+}
+
+.opinión-intro, .recursos-intro{
+    margin-top: 2em
+}
+
+.pie{
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1em;
+}
+
+.inline{
+    text-decoration: none;
+    border-top: 4px solid aquamarine;
+    padding-top: 0.7em;
+    display: inline-block;
+    color: black;
+}
+
+
+@media (min-width: 600px) {
+
+    .contenedor{
+        padding: 3em;
+    }
+
+    p, a, span{
+        font-size: 1.2rem;
+    }
+
+    .intro h1{
+        font-size: 4rem;
+    }
+
+    h2{
+        font-size: 1.4rem;
+    }
+}
