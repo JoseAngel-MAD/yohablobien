@@ -117,6 +117,7 @@ a{
     padding-top: 0.7em;
     display: inline-block;
     color: black;
+    cursor: pointer;
 }
 
 footer{
