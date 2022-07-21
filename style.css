@@ -18,6 +18,11 @@ body{
 
 }
 
+
+.intro{
+    margin-bottom: 0;
+}    
+
 .intro h1{
     font-weight: bold;
     font-size: 45px;
