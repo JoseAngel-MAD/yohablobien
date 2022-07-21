@@ -33,6 +33,8 @@ body{
 }
 
 .flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -93,7 +95,8 @@ a{
 }
 
 .tachado{
-    text-decoration-line: line-through;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
 }
 
 .opinión-inline{
